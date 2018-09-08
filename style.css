@@ -10,7 +10,8 @@ h2 {
   color: darkslateblue;
 }
 h1 {
-  color: #ef6611f2;
+  font-size: 80px;
+  text-align: center;
 }
 p {
   border: #3F51B5 ridge 30px;
@@ -34,7 +35,11 @@ table,
 td {
     border: 1px solid #333;
 }
-
+table {
+  width: 800px;
+  height: 150px;
+margin: auto;
+}
 thead
 {
     background-color: #333;
