@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+  <head>
+    <title>LIFES</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <h1>
+      LIFES
+    </h1>
+    <h2>
+      CHALLENGES
+    </h2>
+    <p>
+      Life's Instructions For Everybody's Scenario
+    </p>
+     <div>
+      <a href="categories/peer-pressure.html">
+        <div class="circle" id="circle1" >Peer pressure</div>
+      </a>
+       <!-- <div class="circle">Friends</div>
+       <div class="circle">Moving</div>
+       <div class="circle">Family</div>
+       <div class="circle">Dating</div>
+       <div class="circle">Jobs</div>
+       <div class="circle">Credit Finance</div> -->
+    </div>
+
+
+  <script>
+    var example = document.getElementById("circle1");
+    var originalText = example.innerText;
+
+    example.addEventListener("mouseenter", function() {
+      event.target.innerHTML = "👻 <ul> <li> Smoking </li> <li> Cuttingclass</li> Staying out late </li> </ul>👻"
+    })
+
+  example.addEventListener("mouseleave", function() {
+    event.target.innerText = originalText;
+  })
+  </script>
+  </body>
+</html>
