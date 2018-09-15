@@ -7,38 +7,122 @@
   </head>
   <body>
     <h1>
-      LIFES
+      L.I.F.E.S
     </h1>
-    <h2>
-      CHALLENGES
-    </h2>
+
     <p>
-      Life's Instructions For Everybody's Scenario
+      Life's Insight From Everyone's Situation
     </p>
-     <div>
-      <a href="categories/peer-pressure.html">
+
+      <a href ="categories/peer-pressure.html">
         <div class="circle" id="circle1" >Peer pressure</div>
       </a>
-       <!-- <div class="circle">Friends</div>
-       <div class="circle">Moving</div>
-       <div class="circle">Family</div>
-       <div class="circle">Dating</div>
-       <div class="circle">Jobs</div>
-       <div class="circle">Credit Finance</div> -->
+
+      <a href ="categories/friends.html">
+        <div class="circle" id="circle2">Friends</div>
+      </a>
+
+      <a href ="categories/moving.html">
+       <div class="circle" id="circle3">Moving</div>
+      </a>
+
+      <a href ="categories/family.html">
+       <div class="circle" id="circle4">Family</div>
+      </a>
+
+      <a href ="categories/dating.html">
+       <div class="circle" id="circle5">Dating</div>
+      </a>
+
+      <a href ="categories/jobs.html">
+       <div class="circle" id="circle6">Jobs</div>
+      </a>
+
+      <a href ="categories/credit&finance.html">
+       <div class="circle" id="circle7">Credit&Finance</div>
+      </a>
+
     </div>
 
 
   <script>
-    var example = document.getElementById("circle1");
-    var originalText = example.innerText;
+    var circle1 = document.getElementById("circle1");
+    var circle1text = circle1.innerText;
 
-    example.addEventListener("mouseenter", function() {
-      event.target.innerHTML = "👻 <ul> <li> Smoking </li> <li> Cuttingclass</li> Staying out late </li> </ul>👻"
+    circle1.addEventListener("mouseenter", function() {
+      event.target.innerHTML = "<ul> <li> Smoking </li> <li> Cuttingclass </li> <li> Staying out late </li> </ul>"
     })
 
-  example.addEventListener("mouseleave", function() {
-    event.target.innerText = originalText;
-  })
+    circle1.addEventListener("mouseleave", function() {
+      event.target.innerText = circle1text;
+    })
+
+    var circle2 = document.getElementById("circle2");
+    var circle2text = circle2.innerText;
+
+    circle2.addEventListener("mouseenter", function() {
+      event.target.innerHTML = "<ul> <li> Not feeling accepted </li> <li> Trying to fit in </li> <li> Being a follower </li> </ul>"
+    })
+
+    circle2.addEventListener("mouseleave", function() {
+      event.target.innerText = circle2text;
+    })
+
+    var circle3 = document.getElementById("circle3");
+    var circle3text = circle3.innerText;
+
+    circle3.addEventListener("mouseenter", function() {
+      event.target.innerHTML = "<ul> <li> New neighborhood </li> <li> New school </li> <li> New friends </li> </ul>"
+    })
+
+    circle3.addEventListener("mouseleave", function() {
+      event.target.innerText = circle3text;
+    })
+
+    var circle4 = document.getElementById("circle4");
+    var circle4text = circle4.innerText;
+
+    circle4.addEventListener("mouseenter", function() {
+      event.target.innerHTML = "<ul> <li> Parents getting divorced </li> <li> Financially unstable </li> <li> Single parent home </li> </ul>"
+    })
+
+     circle4.addEventListener("mouseleave", function() {
+      event.target.innerHTML = circle4text;
+    })
+
+    var circle5 = document.getElementById("circle5");
+    var circle5text = circle5.innerText;
+
+    circle5.addEventListener("mouseenter", function() {
+      event.target.innerHTML = "<ul> <li> Knowledge about STD's </li> <li> Protecting yourself properly </li> <li> What is love? </li> </ul>"
+    })
+
+    circle5.addEventListener("mouseleave", function() {
+      event.target.innerText = circle5text;
+    })
+
+    var circle6 = document.getElementById("circle6");
+    var circle6text = circle6.innerText;
+
+    circle6.addEventListener("mouseenter", function() {
+      event.target.innerHTML = "<ul> <li> Proper attire </li> <li> Work ethic </li> <li> Budgeting </li> </ul>"
+    })
+
+    circle6.addEventListener("mouseleave", function() {
+      event.target.innerText = circle6text;
+    })
+
+    var circle7 = document.getElementById("circle7");
+    var circle7text = circle7.innerText;
+
+    circle7.addEventListener("mouseenter", function() {
+      event.target.innerHTML = "<ul> <li> How to create </li> <li> Punctual payments </li> <li> How to maintain </li> </ul>"
+    })
+
+    circle7.addEventListener("mouseleave", function() {
+      event.target.innerText = circle7text;
+    })
+
   </script>
   </body>
 </html>

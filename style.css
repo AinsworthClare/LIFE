@@ -23,13 +23,40 @@ p {
     border-style: ridge;
     border-color: #FF5722;
     border-width: 5px;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     background-color: #FF5722;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-size: 225px;
+    color: white;
+    margin: 10px;
 }
+
+#circle1{
+  background-image: url("images/peer-pressure.jpg");
+}
+#circle2{
+  background-image: url("images/friends.jpg");
+}
+#circle3{
+  background-image: url("images/moving.jpg");
+}
+#circle4{
+  background-image: url("images/family.jpg");
+}
+#circle5{
+  background-image: url("images/dating.jpg");
+}
+#circle6{
+  background-image: url("images/jobs.jpg");
+}
+#circle7{
+  background-image: url("images/credit&finance.jpg");
+}
+
+
 
 table,
 td {
@@ -37,7 +64,7 @@ td {
 }
 table {
   width: 800px;
-  height: 150px;
+  height: 400px;
 margin: auto;
 }
 thead
